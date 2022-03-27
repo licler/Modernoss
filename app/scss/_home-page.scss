@@ -1,0 +1,226 @@
+
+
+// start week
+.week {
+    padding: 110px 0;
+}
+
+.week__inner-title {
+    color: #263238;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: 'Roboto-Bold';
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.slick-dots {
+    text-align: center;
+    margin-top: 50px;
+
+    li {
+        display: inline-block;
+        margin-left: 3px;
+        margin-right: 3px;
+
+        &.slick-active {
+            button {
+                background-color: $green;
+            }
+        }
+
+        button {
+            border-radius: 50%;
+            background-color: rgb(232, 232, 232);
+            border: none;
+            font-size: 0;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            outline: none;
+
+        }
+    }
+}
+
+// end week
+
+
+// start advantages
+.advantages {
+    background-color: $color-bg;
+    padding: 115px 0 100px;
+}
+
+.advantages__inner-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: 'Roboto-Bold';
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.adnantages__inner-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__inner-item {
+    max-width: 370px;
+    text-align: center;
+    padding: 0 15px;
+
+    &:hover {
+        .advantages__inner-images {
+            background-color: $green;
+            transition: all .3s
+        }
+
+        .advantages__inner-name {
+            color: #8bc34a;
+            transition: all .3s
+        }
+
+        .advantages__inner-images svg {
+            fill: #fff;
+            transition: all .3s
+        }
+    }
+}
+
+.advantages__inner-name {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+    margin-bottom: 20px;
+}
+
+.advantages__inner-text {
+    color: #b0bec5;
+    font-size: 15px;
+    width: 310px;
+    text-align: center;
+}
+
+.advantages__inner-images {
+    width: 115px;
+    height: 115px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 30px;
+}
+
+.advantages__inner-images svg {
+    margin: 0 auto;
+
+}
+
+// end advantages
+
+
+// start authors
+
+.authors {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.authors__inner {
+    display: flex;
+    background-color: $green;
+    max-width: 650px;
+    width: 100%;
+    min-height: 220px;
+    padding: 65px 55px 80px 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.authors__title {
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    margin-right: 45px;
+    max-width: 260px;
+}
+
+.authors__title span {
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+}
+
+.authors__link {
+    background-color: #fff;
+    padding: 14px 40px;
+    width: 225px;
+    height: 64px;
+    color: #263238;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+// end authors
+
+// start categories
+.categories {
+    padding: 60px 0 120px;
+    background-color: #fff;
+}
+
+.categories__title {
+    font-size: 36px;
+    color: #263238;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.categories__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categories__item {
+    max-width: 370px;
+    text-align: center;
+}
+
+.categories__item-images {
+    min-height: 270px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.categories__item-content {
+    padding: 30px 60px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.categories__item-title {
+    font-size: 24px;
+    color: #263238;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+}
+
+// end categories

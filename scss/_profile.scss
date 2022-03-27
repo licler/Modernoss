@@ -1,0 +1,280 @@
+// start  profile-page__aside
+.profile-page__wrapper {
+    display: flex;
+}
+
+.profile-page__aside {
+    margin-right: 25px;
+}
+
+.profile-page {
+    padding: 50px 0 110px;
+    background-color: #f4f6f5;
+}
+
+.profile-page__social {
+    margin: 20px 0;
+}
+
+.profile-page__link li {
+    display: inline-block;
+
+    li+li {
+        margin-right: 7px;
+    }
+}
+
+.profile-social {
+    width: 28px;
+    height: 28px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-facebook {
+    background-image: url('../images/footer/facebook.png');
+}
+
+.profile-twitter {
+    background-image: url('../images/footer/twitter.png');
+}
+
+.profile-youtube {
+    background-image: url('../images/footer/youtube.png');
+}
+
+.profile-linkedin {
+    background-image: url('../images/footer/linkedin.png');
+}
+
+.profile-page__links {
+    position: relative;
+
+    .profile-page__first {
+        background-color: #546e7a;
+        width: 270px;
+        padding: 15px 60px;
+        display: block;
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 500;
+        font-family: 'Roboto-Medium';
+        box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+    }
+
+    .icon-mail-envelope-closed1 {
+        position: absolute;
+        top: 17px;
+        left: 49px;
+        font-size: 23px;
+        color: #fff;
+    }
+
+    .profile-page__second {
+        width: 270px;
+        padding: 15px 60px;
+        display: block;
+        background-color: $green;
+        font-size: 16px;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 500;
+        font-family: 'Roboto-Medium';
+        box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+        margin-bottom: 30px;
+    }
+}
+
+.profile-page__author {
+    margin-bottom: 25px;
+}
+
+.profile-page__author-box {
+    padding: 20px 0 0;
+}
+
+.profile-page__share {
+    margin-bottom: 40px;
+    padding-left: 16px;
+    position: relative;
+}
+.profile-page__share:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: $green;
+    transform: translateY(-50%);
+}
+
+.profile-page__share-main {
+    margin-bottom: 12px;
+}
+
+// end  profile-page__aside
+
+
+// start profile-page__content
+
+.profile-page__images {
+    width: 870px;
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.profile-page__img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 332px;
+    width: 830px;
+    display: block;
+}
+
+.profile-page__main {
+    display: flex;
+    margin-top: 25px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+}
+
+.profile-page__main-box {
+    text-align: center;
+    padding: 20px 20px 15px 20px;
+    width: 216px;
+
+    &+.profile-page__main-box {
+        border-left: 1px solid #dcdcdc;
+    }
+
+    .profile-page__main-text {
+        font-size: 14px;
+        color: $color-bg;
+        font-weight: 500;
+        font-family: 'Roboto-Medium';
+    }
+
+    .profile-page__main-desc {
+        color: #707070;
+        font-size: 14px;
+
+        .rate-star {
+            margin-right: 5px;
+        }
+
+    }
+}
+
+.profile-page__desc-price {
+    font-size: 14px;
+    color: #000;
+}
+
+
+.single-page__tabs.profile__tabs {
+    display: flex;
+
+    .tabs {
+        max-width: 270px;
+        width: 100%;
+        margin-right: 30px;
+        // border: 1px solid #dedede;
+        border-bottom: none;
+        display: block;
+        text-align-last: left;
+
+        span {
+            display: block;
+            background-color: #fff;
+            border-bottom: 1px solid #dedede;
+            padding: 15px 30px;
+            font-size: 14px;
+            color: #707070;
+            font-weight: 500;
+            font-family: 'Roboto-Medium';
+
+        }
+    }
+
+    .tabs .tab.active {
+        border-bottom: 3px solid $green;
+    }
+
+    .tab_content {
+        width: 100%;
+    }
+
+}
+.single-page__tabs.profile__tabs {
+    .tabs span {
+        font-family: 'Roboto-Medium' !important;
+        font-weight: 500;
+        color: #707070;
+        position: relative;
+        padding-left: 55px;
+        &.active::before {
+           color: $green; 
+        }
+        &::before {
+            left: 24px;
+            font-size: 14px;
+            color: #d0d0d0;
+            position: absolute;
+            font-family: 'icomoon'
+        }
+    }
+}
+.profile-page__info-title {
+    font-size: 20px;
+    color: $color-bg;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 25px;
+}
+.profile-page__info-text {
+    color: #707070;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.profile-page__skills-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.profile-page__skills-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-bg;
+    font-family: 'Roboto-Medium';
+}
+.profile-page__skills-num {
+    font-size: 16px;
+    font-weight: 700;
+    color: $color-bg;
+    font-family: 'Roboto-Bold';
+}
+.profile-page__skills-line {
+    height: 15px;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    span {
+        display: block;
+        height: 15px;
+        border-radius: 3px;
+        background-image: url('../images/profile/probar.jpg');
+        background-repeat: repeat;
+    }
+}
+// end profile-page__content

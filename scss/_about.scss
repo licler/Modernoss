@@ -1,0 +1,33 @@
+.about-page {
+    padding: 35px 0 140px;
+    background-color: #f4f6f5;
+}
+.about-page__wrapper {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+.about-page__box {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 20px 30px;
+}
+.about-page__box-title {
+    font-size: 24px;
+    line-height: 60px;
+    color: $color-bg;
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+}
+.about-page__content {
+    padding: 35px 60px 0px 50px;
+}
+.about-page__content-title {
+    color: #444444;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+}
+.about-page__content-text {
+    margin-top: 20px;
+    color: #707070;
+    margin-bottom: 45px;
+}

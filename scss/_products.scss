@@ -1,0 +1,164 @@
+// start products
+.products {
+    padding: 115px 0 105px;
+    background-color: #f4f6f5;
+}
+
+.products__wrapper-title {
+    font-size: 36px;
+    line-height: 60px;
+    color: #263238;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Roboto-Bold';
+}
+
+.products__inner-btn {
+    color: #263238;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Roboto-Medium';
+
+    button {
+        padding: 12px 21px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        &+button {
+            margin-left: 5px;
+        }
+
+        &.mixitup-control-active {
+            background-color: $red;
+            color: #fff;
+        }
+    }
+}
+
+.product__inner-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product__inner-item {
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.product__inner-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    display: block;
+    background-size: cover;
+}
+
+.product__inner-content {
+    padding: 18px 30px;
+    border-bottom: 1px solid #e7ecf2;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.product__inner-title {
+    font-size: 18px;
+    color: #263238;
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+    margin-bottom: 5px;
+}
+
+.product__inner-desc {
+    color: #8bc34a;
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+    font-size: 14px;
+}
+
+.product__inner-price {
+    color: #263238;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+}
+
+.product__inner-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 30px;
+    height: 65px;
+    align-items: center;
+}
+
+.product__inner-name {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.product__avatar {
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product__avatar-name {
+    color: #546e7a;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+    max-width: 250px;
+}
+
+.product__inner-star {
+    color: #b0bec5;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto-Regular';
+}
+
+.product__inner-star span {
+    font-size: 12px;
+    color: #263238;
+    font-weight: 400;
+    font-family: 'Roboto-Regular';
+}
+
+.product__inner-btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #263238;
+    font-family: 'Roboto-Regular';
+    text-align: center;
+    margin-top: 70px;
+
+    button {
+        border: none;
+        outline: none;
+        box-shadow: 0px 1px 3px 0px rgba(204, 216, 228, 0.75);
+        background-color: #fff;
+        display: inline-block;
+        padding: 20px 30px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}
+
+// end products

@@ -1,0 +1,215 @@
+// start footer
+.footer {
+    background-color: $color-bg;
+    padding: 110px 0 90px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__about {
+    max-width: 290px;
+}
+
+.footer__about-title,
+.footer__item-title,
+.footer__follow-title {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+}
+
+.footer__about-title:after,
+.footer__item-title:after,
+.footer__follow-title:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: $green;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer__about-text {
+    color: #b7c3c8;
+    margin-bottom: 30px;
+}
+
+.footer__about-adress {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative
+}
+
+.footer__about-adress:before {
+    content: "";
+    background-image: url('../images/footer/map.png');
+    display: block;
+    width: 10px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer__about-tel {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative
+}
+
+.footer__about-tel:before {
+    content: "";
+    background-image: url('../images/footer/phone.png');
+    display: block;
+    width: 10px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer__item {
+    max-width: 250px;
+}
+
+.footer__item-list li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.footer__item-list li:before {
+    content: "";
+    background-image: url('../images/footer/arrows.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 6px;
+    height: 11px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer__item-list a {
+    font-size: 15px;
+    line-height: 36px;
+    color: #b7c3c8;
+}
+.footer__folow {
+ width: 260px;
+}
+.footer__follow-link li {
+    display: inline-block;
+}
+
+.footer__follow-link li+li {
+    margin-left: 7px;
+}
+
+.link-facebook {
+    background-image: url('../images/footer/facebook.png');
+}
+
+.link-twitter {
+    background-image: url('../images/footer/twitter.png');
+}
+
+.link-youtube {
+    background-image: url('../images/footer/youtube.png');
+}
+
+.link-pinterest {
+    background-image: url('../images/footer/pinterest.png');
+}
+
+.link-linkedin {
+    background-image: url('../images/footer/linkedin.png');
+}
+
+.social {
+    width: 28px;
+    height: 28px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 35px;
+}
+
+.footer__follow-name {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-form {
+    position: relative;
+    max-width: 260px;
+}
+
+.footer-input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #2f3c43;
+    padding: 0 60px 0 15px;
+    color: #fff;
+
+    &:focus {
+        border: 1px solid $green;
+    }
+}
+
+.footer-input::placeholder {
+    font-size: 14px;
+    color: #697378;
+}
+
+.footer-button {
+    width: 43px;
+    height: 35px;
+    background-color: $green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    .icon-compass {
+        color: #fff;
+    }
+}
+
+// end footer
+
+// start copi
+.copi {
+    background-color: $color-bg;
+    padding: 20px 0 25px;
+    border-top: 1px solid #424d53;
+}
+
+.copi__immer-text {
+    font-size: 15px;
+    color: #919699;
+    text-align: center;
+}
+
+// end copi

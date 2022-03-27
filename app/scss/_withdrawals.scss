@@ -1,0 +1,168 @@
+.withdrawals-page {
+    background-color: #f4f6f5;
+    padding: 35px 0 140px;
+}
+
+.withdrawals__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.withdrawals__register {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    max-width: 570px;
+    width: 100%;
+}
+
+.withdrawals__register-content {
+    padding: 20px 40px 45px 35px;
+
+    button {
+        margin-top: 15px;
+        width: 200px;
+        height: 50px;
+        padding: 15px;
+        text-align: center;
+        color: #fff;
+        background-color: $green;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.withdrawals__title {
+    border-bottom: 1px solid #dedede;
+    font-size: 24px;
+    color: $color-bg;
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+    padding: 15px 30px;
+}
+
+.withdrawals__register-line {
+    margin-bottom: 25px;
+
+    label {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: $color-bg;
+        font-weight: 500;
+        font-family: 'Roboto-Medium';
+
+        span {
+            color: $green;
+            margin-left: 8px
+        }
+    }
+
+    input {
+        max-width: 490px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #dedede;
+        outline: none;
+        color: #707070;
+        padding: 0px 30px 0 15px;
+        background-color: #f9f9f9;
+    }
+}
+
+.jq-selectbox {
+    max-width: 490px;
+    width: 100%;
+}
+
+.jq-selectbox__select {
+    height: 40px;
+    padding: 0px 30px 0 15px;
+    border: 1px solid #dedede;
+    border-bottom-color: #dedede;
+    border-radius: 0;
+    background: #f9f9f9;
+    box-shadow: none;
+    font-family: 'Roboto-Regular', sans-serif;
+    color: #333;
+    text-shadow: none;
+}
+
+.jq-selectbox__select-text {
+    margin-top: 4px;
+}
+
+.jq-selectbox__trigger-arrow {
+    border: none;
+    top: 0;
+    right: 20px;
+    line-height: 40px;
+    font-size: 15px;
+
+    &::before {
+        font-family: 'icomoon' !important;
+        content: "\e907";
+    }
+}
+
+.jq-selectbox__trigger {
+    border-left: none;
+}
+
+.withdrawals__history {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    max-width: 570px;
+    width: 100%;
+    height: 430px;
+}
+
+.withdrawals__history-content {
+    padding: 35px;
+}
+
+.withdrawals__history-item {
+    display: flex;
+    height: 42px;
+    align-items: center;
+    // justify-content: space-between;
+    color: #444;
+    font-size: 13px;
+
+    &:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+}
+
+.withdrawals__history-price {
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+    width: 80px;
+    padding: 0 20px;
+    color: #444;
+}
+
+.withdrawals__history-data {
+    font-weight: 500;
+    font-family: 'Roboto-Medium';
+    padding: 0 20px;
+    width: 130px;
+}
+
+.withdrawals__history-status {
+    font-weight: 700;
+    font-family: 'Roboto-Bold';
+    padding-right: 35px;
+    width: 105px;
+    padding: 0 20px;
+}
+.withdrawals__history-paid {
+    color: $green;
+    padding-right: 35px;
+    width: 105px;
+    padding: 0 20px;
+}
+.withdrawals__history-email {
+    width: 180px;
+    padding: 0 20px;
+}
